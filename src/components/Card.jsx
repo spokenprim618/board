@@ -45,7 +45,7 @@ const Card = ({ length }) => {
     return (
         <div className="container">
             <div className="row">
-                {data.map((item, index) => (
+                {data.map((item) => (
                     
                         <div className="card">
                             {renderImage(item.image)}
